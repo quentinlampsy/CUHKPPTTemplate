@@ -1,0 +1,19 @@
+[1] Config.pm:307> INFO - This is Biber 2.19
+[2] Config.pm:310> INFO - Logfile is 'CUHK-test.blg'
+[264] biber-MSWIN64:340> INFO - === 
+[378] Biber.pm:419> INFO - Reading 'CUHK-test.bcf'
+[686] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
+[734] Biber.pm:4419> INFO - Processing section 0
+[762] Biber.pm:4610> INFO - Looking for bibtex file 'ref.bib' for section 0
+[888] bibtex.pm:1713> INFO - LaTeX decoding ...
+[905] bibtex.pm:1519> INFO - Found BibTeX data source 'ref.bib'
+[998] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[998] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[999] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[999] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1018] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1018] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1018] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1018] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1023] bbl.pm:660> INFO - Writing 'CUHK-test.bbl' with encoding 'UTF-8'
+[1031] bbl.pm:763> INFO - Output to CUHK-test.bbl

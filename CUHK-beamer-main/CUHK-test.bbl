@@ -1,0 +1,165 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{vaswani2017attention}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={{Ł}ukasz},
+           giveni={Ł\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authorbibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in neural information processing systems}
+      \field{title}{Attention is all you need}
+      \field{volume}{30}
+      \field{year}{2017}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{vaswani2017attention}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={{Ł}ukasz},
+           giveni={Ł\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authorbibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in neural information processing systems}
+      \field{title}{Attention is all you need}
+      \field{volume}{30}
+      \field{year}{2017}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

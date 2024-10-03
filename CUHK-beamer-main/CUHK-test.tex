@@ -1,0 +1,109 @@
+\documentclass{beamer}
+
+\usepackage[
+backend=biber, 
+style=apa]{biblatex}
+
+\usetheme{metropolis}  
+\title{CUHK Beamer Template}
+\subtitle{A Metropolis-based template, dedicated for CUHK}
+\date{\today}
+\author{Quentin Lam}
+\institute{Department of Psychology, the Chinese University of Hong Kong}
+\titlegraphic{
+    \flushright\includegraphics[height=1cm]{CUHK/CUHK_name.pdf}
+}
+\addbibresource{ref.bib}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+
+    \section{Section One}
+    \begin{frame}{Slide with bullet points}
+        This is a bullet list of two points:
+        \begin{itemize}
+            \item Point one
+            \item Point two
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}{Slide with two columns}
+        \begin{columns}
+            \column{.5\textwidth}
+            Text goes in first column.
+            
+            \column{.5\textwidth}
+            Text goes in second column
+        \end{columns}
+    \end{frame}
+
+    \section{Section Two}
+
+    \begin{frame}{Slide with table}
+        \begin{table}
+            \centering
+            \begin{tabular}{ccc}
+                \hline
+                \textbf{name1} & \textbf{name2} & \textbf{name3} \\
+                \hline 
+                cell1 & cell2 & cell3 \\ 
+                cell4 & cell5 & cell6 \\ 
+                cell7 & cell8 & cell9 \\ 
+                \hline
+            \end{tabular}
+            \caption{Caption for table one}
+            \label{tab:table1}
+        \end{table}
+    \end{frame}
+
+    \begin{frame}{Slide with figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=.5\textwidth]{example-image-a}
+            \caption{Caption for figure one.}
+            \label{fig:figure1}
+        \end{figure}
+    \end{frame}
+
+    \begin{frame}{Slide with references}
+        This is to reference a figure (Figure \ref{fig:figure1})\\
+        This it to reference a table (Table \ref{tab:table1})\\
+        This is to cite an article \cite{vaswani2017attention}\\
+        %\footnote{Personally this way of citing is not recommended, as \textbf{printbibliography} seems not to behave well in this theme. Will fix later, and any PR/suggestion is welcome. }
+%        This is to cite an article in the format of footnote \ite{vaswani2017attention}
+    \end{frame}
+
+    \lecture{Test lecture one}{lone}
+    \begin{frame}{Theorems}
+        \begin{theorem}
+            This is Theorem 1.
+        \end{theorem}
+        \begin{definition}
+            This is a definition. 
+        \end{definition}
+        \begin{corollary}
+            This is a corollary. 
+        \end{corollary}
+    \end{frame}
+
+    \lecture{Test lecture two}{ltwo}
+    \begin{frame}{Formula}
+        \begin{theorem}
+            This is Theorem 2. 
+        \end{theorem}
+        This is an equation block: 
+        \begin{equation}
+            H(x)=-\sum\limits_i^Np(x_i)\log p(x_i).
+        \end{equation}
+        This is an inline equation: $H(x)=-\sum\limits_i^Np(x_i)\log p(x_i)$。
+    \end{frame}
+
+    \section{References}
+
+    \begin{frame}[allowframebreaks]{References}
+        % \tiny\bibliography{references}
+        % \bibliographystyle{apalike}
+        \printbibliography[heading=none]
+    \end{frame}
+\end{document}
