@@ -151,6 +151,16 @@
 
 \setbeamertemplate{frametitle continuation}{} % Remove numbering for `allowframebreaks`
 
+% Set 30pt text margin for frame content (applied after all themes are loaded)
+\AtBeginDocument{%
+  \setbeamersize{text margin left=50pt, text margin right=10pt}%
+}
+
+% Shift equation numbers 50pt to the left
+\makeatletter
+\renewcommand{\@eqnnum}{\normalfont\normalcolor\hspace{-50pt}(\theequation)}
+\makeatother
+
 \endinput
 %%
-%% End of file `beamerthememetropolis.sty'.
+%% End of file `beamerthememetropolis.sty`.

@@ -96,7 +96,7 @@
   \vspace*{0.5em}
 }
 \newlength{\metropolis@titleseparator@linewidth}
-\setlength{\metropolis@titleseparator@linewidth}{0.4pt}
+\setlength{\metropolis@titleseparator@linewidth}{2pt}
 \setbeamertemplate{title separator}{
   \tikzexternaldisable%
   \begin{tikzpicture}
@@ -183,15 +183,14 @@
 }
 \newlength{\metropolis@progressonsectionpage}
 \newlength{\metropolis@progressonsectionpage@linewidth}
-\setlength{\metropolis@progressonsectionpage@linewidth}{0.4pt}
+\setlength{\metropolis@progressonsectionpage@linewidth}{1.5pt}
 \setbeamertemplate{progress bar in section page}{
   \setlength{\metropolis@progressonsectionpage}{%
     \textwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
   }%
   \tikzexternaldisable%
   \begin{tikzpicture}
-    \fill[bg] (0,0) rectangle (\textwidth, \metropolis@progressonsectionpage@linewidth);
-    \fill[fg] (0,0) rectangle (\metropolis@progressonsectionpage, \metropolis@progressonsectionpage@linewidth);
+    \fill[mYellow] (0,0) rectangle (\textwidth, \metropolis@progressonsectionpage@linewidth);
   \end{tikzpicture}%
   \tikzexternalenable%
 }
@@ -254,6 +253,7 @@
 \setlength{\metropolis@parskip}{0.5em}
 \setlength{\parskip}{\metropolis@parskip}
 \linespread{1.15}
+
 \define@key{beamerframe}{c}[true]{% centered
   \beamer@frametopskip=0pt plus 1fill\relax%
   \beamer@framebottomskip=0pt plus 1fill\relax%
@@ -295,6 +295,23 @@
       \usebeamerfont{standout}
     }{}
   }
+
+% Custom Table of Contents template
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+
+% Add custom frame for table of contents with title and separator
+\AtBeginDocument{%
+  \let\oldtableofcontents\tableofcontents
+  \renewcommand{\tableofcontents}{%
+    \begin{frame}{Table of Contents}
+      \vspace{0.5em}
+      \setlength{\parskip}{1\baselineskip}
+      \oldtableofcontents
+    \end{frame}
+  }
+}
+
 \metropolis@inner@setdefaults
 \ProcessPgfPackageOptions{/metropolis/inner}
 \endinput
